@@ -5,11 +5,11 @@
 var playlist = new Object({artistName: 'songTitle'})
 
 
-//function update playlist, three parameters, playlist-object, artist name- string, songtitle 
+//function update playlist, three parameters, playlist-object, artist name- string, songtitle
 //body of the function should add the song and artist as a key-value pair to the playlist object
 //The function should return the whole playlist.
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  
-  return Object.assign({}, playlist, { [artistName]: songTitle})//whole playlist 
+
+  return Object.assign({}, playlist, { [artistName]: songTitle})//whole playlist
 }
