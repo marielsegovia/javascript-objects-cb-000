@@ -10,6 +10,6 @@ var playlist = new Object({artistName: 'songTitle'})
 //The function should return the whole playlist.
 
 function updatePlaylist(playlist, artistName, songTitle) {
-
-  return Object.assign({}, playlist, {[artistName]: songTitle})//whole playlist
+  playlist[artistName] = songTitle
+  return playlist
 }
