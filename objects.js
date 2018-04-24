@@ -2,4 +2,4 @@
 //the keys will be artist names and the values will be song titles.
 //(What limitation does this impose on our playlist?)
 
-var playlist = new Object({name: 'titles'})
+var playlist = new Object({artistName: 'songTitle'})
